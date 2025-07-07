@@ -77,7 +77,7 @@ python todo_cli.py delete <ID>
 
 ---
 
-###How to Use the GUI (todo_gui.py)
+### How to Use the GUI (todo_gui.py)
 To run the graphical interface, execute the todo_gui.py script:
 
 ```bash
@@ -93,13 +93,14 @@ This will open a window where you can:
 
 ---
 
-###File Structure
-
+### File Structure
+```
 .
 ├── task_manager.py # The core backend logic for managing tasks.
 ├── todo_cli.py # The command-line interface script.
 ├── todo_gui.py # The graphical user interface script.
 ├── todo.json # The JSON file where tasks are stored (created automatically).
 └── README.md # This file.
+```
 ---
 
