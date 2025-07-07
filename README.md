@@ -1,2 +1,2 @@
 # Task-tracker
-Task tracker application made using python
+CLI Task tracker application made using python
