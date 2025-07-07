@@ -30,7 +30,7 @@ A simple, lightweight, and dependency-free command-line and graphical applicatio
 
 1.  **Clone the repository** or download the files into a new directory:
     ```bash
-    git clone <your-repository-url>
+    git clone (https://github.com/AimaKoraki/Task-tracker.git)
     cd <your-repository-folder>
     ```
 
@@ -74,3 +74,31 @@ To permanently remove a task, use the delete command with the task's ID:
 ```bash
 python todo_cli.py delete <ID>
 ```
+
+---
+
+###How to Use the GUI (todo_gui.py)
+To run the graphical interface, execute the todo_gui.py script:
+
+```bash
+python todo_gui.py
+```
+
+This will open a window where you can:
+- **View all tasks in a scrollable list.
+- **Filter tasks by status by clicking the filter buttons at the top.
+- **Add a new task by typing in the entry box and clicking "Add Task".
+- **Update a task by clicking it in the list (its title will appear in the entry box), editing the title, and clicking "Update Selected".
+- **Delete a task by selecting it from the list and clicking "Delete Selected".
+
+---
+
+###File Structure
+
+.
+├── todo_cli.py      # The command-line interface script.
+├── todo_gui.py      # The graphical user interface script.
+├── task_manager.py  # The core backend logic for managing tasks.
+├── todo.json        # The JSON file where tasks are stored.
+└── README.md        # This file.
+
