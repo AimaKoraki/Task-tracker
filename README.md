@@ -1,4 +1,5 @@
-# Task Tracker CLI & GUI (https://roadmap.sh/projects/task-tracker)
+# Task Tracker CLI & GUI 
+(https://roadmap.sh/projects/task-tracker)
 
 A simple, lightweight, and dependency-free command-line and graphical application to manage your to-do list. Built with pure Python, this tool helps you track tasks by adding, updating, and deleting them directly from your terminal or a simple GUI, with all data stored locally in a `todo.json` file.
 
