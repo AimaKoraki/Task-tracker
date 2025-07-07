@@ -1,0 +1,18 @@
+[
+  {
+    "id": 2,
+    "title": "Learn how to fix bugs",
+    "description": "",
+    "status": "done",
+    "created_at": "2025-07-07T15:34:00.454447+00:00",
+    "updated_at": "2025-07-07T15:34:20.946153+00:00"
+  },
+  {
+    "id": 3,
+    "title": "Test the GUI plan",
+    "description": "",
+    "status": "pending",
+    "created_at": "2025-07-07T15:34:05.898533+00:00",
+    "updated_at": "2025-07-07T15:34:05.898564+00:00"
+  }
+]
