@@ -85,20 +85,21 @@ python todo_gui.py
 ```
 
 This will open a window where you can:
-- **View all tasks in a scrollable list.
-- **Filter tasks by status by clicking the filter buttons at the top.
-- **Add a new task by typing in the entry box and clicking "Add Task".
-- **Update a task by clicking it in the list (its title will appear in the entry box), editing the title, and clicking "Update Selected".
-- **Delete a task by selecting it from the list and clicking "Delete Selected".
+- **View all tasks** in a scrollable list.
+- **Filter tasks** by status by clicking the filter buttons at the top.
+- **Add a new task** by typing in the entry box and clicking "Add Task".
+- **Update a task** by clicking it in the list (its title will appear in the entry box), editing the title, and clicking "Update Selected".
+- **Delete a task** by selecting it from the list and clicking "Delete Selected".
 
 ---
 
 ###File Structure
 
 .
-├── todo_cli.py      # The command-line interface script.
-├── todo_gui.py      # The graphical user interface script.
-├── task_manager.py  # The core backend logic for managing tasks.
-├── todo.json        # The JSON file where tasks are stored.
-└── README.md        # This file.
+├── task_manager.py # The core backend logic for managing tasks.
+├── todo_cli.py # The command-line interface script.
+├── todo_gui.py # The graphical user interface script.
+├── todo.json # The JSON file where tasks are stored (created automatically).
+└── README.md # This file.
+---
 
