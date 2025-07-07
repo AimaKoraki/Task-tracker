@@ -46,4 +46,30 @@ Run all commands from your terminal in the project directory.
 To add a new task, use the `add` command followed by the task title.
 ```bash
 python todo_cli.py add "Buy groceries for the week"
+```
 
+### List All Tasks
+
+To see all your current tasks, their IDs, and their statuses:
+```bash
+python todo_cli.py list
+```
+### Update a Task Tasks
+
+To change a task's title::
+```bash
+python todo_cli.py update <ID> "New task title"
+```
+
+To change a task's status:
+Use the done, progress, or pending commands followed by the task ID.
+```bash
+python todo_cli.py done 1
+python todo_cli.py progress 2
+```
+
+### Delete a Task
+To permanently remove a task, use the delete command with the task's ID:
+```bash
+python todo_cli.py delete <ID>
+```
